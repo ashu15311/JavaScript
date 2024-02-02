@@ -36,6 +36,8 @@ let symbol2 = Symbol("Geeks")
 // is used to create new global Symbol
 console.log(symbol1 == symbol2); // False
 
+
+//object
 const student = {
     firstName: 'ram',
     lastName: null,
