@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:#100f0f;
+}
+.calculator{
+    border: 1px solid;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.121);
+    border-radius: 15px;
+    box-shadow:2px 2px 8px 1px rgb(114, 107, 107),-2px -2px 8px 1px rgb(114, 107, 107);
+}
+input{
+    width: 320px;
+    border: 0.1px solid rgb(59, 52, 52);
+    padding: 20px;
+    margin: 10px;
+    background: transparent; 
+    box-shadow: 10px 10px 15px rgbs(84,84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: 5px 5px 12px rgba(255, 255, 255, 0.1),-5px -5px 12px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+
+}
+.operator{
+    color:limegreen;
+    /* background-color: ; */
+    /* font-size: 30px; */
+    text-align: center;
+}
+.equalBtn{
+    background-color: orangered;
+}
+.ac{
+    color:rgb(202, 10, 10);
+    background-color: rgb(176, 191, 205);
+}
+.del{
+    color: rgb(40, 193, 193);
+    background-color: rgb(185, 201, 217);
+}
+button:active{
+    transform: scale(0.9);
+}
